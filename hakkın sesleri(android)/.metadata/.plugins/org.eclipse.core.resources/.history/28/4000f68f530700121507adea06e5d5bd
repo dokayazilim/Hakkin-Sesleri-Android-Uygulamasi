@@ -1,0 +1,186 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dokasoft.hakkinsesleri"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+<uses-permission
+android:name="android.permission.INTERNET"></uses-permission>
+ <uses-permission
+android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+       
+        <activity
+android:name="com.google.ads.AdActivity"
+android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        
+        
+        <activity
+            android:name=".Hak"
+            android:label="@string/title_activity_hak" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    
+        <activity
+            android:name=".acilis"
+            android:label="@string/title_activity_hak" >
+            <intent-filter>
+                <action android:name="com.dokasoft.hakkinsesleri.ACILIS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name=".acilis2"
+            android:label="@string/title_activity_hak" >
+            <intent-filter>
+                <action android:name="com.dokasoft.hakkinsesleri.ACILISIKI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".acilis3"
+            android:label="@string/title_activity_hak" >
+            <intent-filter>
+                <action android:name="com.dokasoft.hakkinsesleri.ACILISUC" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    
+    <activity
+            android:name=".kitap1"
+            android:label="@string/title_activity_hak" >
+            <intent-filter>
+                <action android:name="com.dokasoft.hakkinsesleri.KITAPBIR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    
+    <activity
+            android:name=".kitap2"
+            android:label="@string/title_activity_hak" >
+            <intent-filter>
+                <action android:name="com.dokasoft.hakkinsesleri.KITAPIKI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    
+      <activity
+            android:name=".kitap3"
+            android:label="@string/title_activity_hak" >
+            <intent-filter>
+                <action android:name="com.dokasoft.hakkinsesleri.KITAPUC" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+      
+      <activity
+            android:name=".kitap4"
+            android:label="@string/title_activity_hak" >
+            <intent-filter>
+                <action android:name="com.dokasoft.hakkinsesleri.KITAPDORT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+      
+      <activity
+            android:name=".kitap5"
+            android:label="@string/title_activity_hak" >
+            <intent-filter>
+                <action android:name="com.dokasoft.hakkinsesleri.KITAPBES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+      
+      <activity
+            android:name=".kitap6"
+            android:label="@string/title_activity_hak" >
+            <intent-filter>
+                <action android:name="com.dokasoft.hakkinsesleri.KITAPALTI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+      
+         <activity
+            android:name=".kitap7"
+            android:label="@string/title_activity_hak" >
+            <intent-filter>
+                <action android:name="com.dokasoft.hakkinsesleri.KITAPYEDI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+         <activity
+            android:name=".kitap8"
+            android:label="@string/title_activity_hak" >
+            <intent-filter>
+                <action android:name="com.dokasoft.hakkinsesleri.KITAPSEKIZ" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+             <activity
+            android:name=".kitap9"
+            android:label="@string/title_activity_hak" >
+            <intent-filter>
+                <action android:name="com.dokasoft.hakkinsesleri.KITAPDOKUZ" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+                 <activity
+            android:name=".kitap10"
+            android:label="@string/title_activity_hak" >
+            <intent-filter>
+                <action android:name="com.dokasoft.hakkinsesleri.KITAPON" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+                            <activity
+            android:name=".istiklal"
+            android:label="@string/title_activity_hak" >
+            <intent-filter>
+                <action android:name="com.dokasoft.hakkinsesleri.ISTIKLAL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                
+                  <activity
+            android:name=".hayati"
+            android:label="@string/title_activity_hak" >
+            <intent-filter>
+                <action android:name="com.dokasoft.hakkinsesleri.HAYATI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>                     
+                            
+    </application>
+
+</manifest>

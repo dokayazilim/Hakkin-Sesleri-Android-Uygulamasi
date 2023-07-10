@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView    android:id="@+id/widget1"    android:layout_width="fill_parent"    android:layout_height="fill_parent"    xmlns:android="http://schemas.android.com/apk/res/android"    > 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="@drawable/androidturk">
+
+  <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PEK HAZİN BİR MEVLİD GECESİ" android:textColor="#ffffff" android:textStyle="bold" android:layout_gravity="center"/>
+<TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Onlara: "Yıllar geçiyor ki, yâ Muhammed,     " android:textColor="#ffffff"  />
+<TextView 
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aylar bize hep Muharrem oldu!    " android:textColor="#ffffff"  />
+<TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Akşam ne güneşli bir geceydi...       " android:textColor="#ffffff" />
+<TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eyvah, o da leyl-i mâtem oldu!     " android:textColor="#ffffff" />
+<TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Âlem bugün üç yüz elli milyon      " android:textColor="#ffffff" />
+<TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mazlûma yaman bir âlem oldu:    " android:textColor="#ffffff"/>
+<TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Çiğnendi harîm-i pâki şer'in;     " android:textColor="#ffffff" />
+<TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Nâmûsa yabancı mahrem oldu!        " android:textColor="#ffffff"/>
+<TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beyninde öten çanın sesinden     " android:textColor="#ffffff"/>
+<TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Binlerce minâre ebkem oldu.     " android:textColor="#ffffff" />
+<TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Allah için, ey Nebiyy-i mâ’sûm,        " android:textColor="#ffffff" />
+<TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="İslâm'ı bırakma böyle bîkes.      " android:textColor="#ffffff"/>
+
+<TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mehmet Akif Ersoy" android:textColor="#ffffff" android:textStyle="bold"/>
+<TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-SAFAHAT ÜÇÜNCÜ KİTAP SONU-" android:textColor="#ffffff" android:textStyle="bold"/>
+
+
+</LinearLayout>
+</ScrollView>

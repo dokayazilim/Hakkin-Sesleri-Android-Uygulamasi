@@ -1,0 +1,75 @@
+package com.dokasoft.hakkinsesleri;
+
+import android.app.ListActivity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ArrayAdapter;
+
+public class list extends ListActivity{
+    String stringarray[]={"Süleymaniye Kürsüsünde 1","Süleymaniye Kürsüsünde 2","Süleymaniye Kürsüsünde 3","SÜleymaniye Kürsüsünde 4","Süleymaniye Kürsüsünde 5","Süleymaniye Kürsüsünde 6","Süleymaniye Kürsüsünde 7","Süleymaniye Kürsüsünde 8","Süleymaniye Kürsüsünde 9","Süleymaniye Kürsüsünde 10"};
+	@Override
+	protected void onListItemClick(android.widget.ListView l, View v,
+			int position, long id) {
+		if (position == 0)
+		{
+			startActivity(new Intent("com.dokasoft.suleymaniye.KITAPBIR"));	
+			
+		}
+		else if(position == 1)
+		{
+			
+			startActivity(new Intent("com.dokasoft.suleymaniye.KITAPIKI"));		
+		}	
+		else if(position == 2)
+		{
+			
+			startActivity(new Intent("com.dokasoft.suleymaniye.KITAPUC"));		
+		}	
+		else if(position == 3)
+		{
+			
+			startActivity(new Intent("com.dokasoft.suleymaniye.KITAPDORT"));		
+		}	
+		else if(position == 4)
+		{
+			
+			startActivity(new Intent("com.dokasoft.suleymaniye.KITAPBES"));		
+		}	
+		else if(position == 5)
+		{
+			
+			startActivity(new Intent("com.dokasoft.suleymaniye.KITAPALTI"));		
+		}	
+		else if(position == 6)
+		{
+			
+			startActivity(new Intent("com.dokasoft.suleymaniye.KITAPYEDI"));		
+		}	
+		else if(position == 7)
+		{
+			
+			startActivity(new Intent("com.dokasoft.suleymaniye.KITAPSEKIZ"));		
+		}	
+		else if(position == 8)
+		{
+			
+			startActivity(new Intent("com.dokasoft.suleymaniye.KITAPDOKUZ"));		
+		}	
+		else if(position == 9)
+		{
+			
+			startActivity(new Intent("com.dokasoft.suleymaniye.KITAPON"));		
+		}	
+		
+	
+	}
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,stringarray));
+	}
+
+}

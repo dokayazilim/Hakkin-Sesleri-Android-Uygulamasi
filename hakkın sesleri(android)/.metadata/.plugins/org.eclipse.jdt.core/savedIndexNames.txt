@@ -1,0 +1,6 @@
+INDEX VERSION 1.126+C:\Documents and Settings\Xp\Desktop\app\hakkýn sesleri\.metadata\.plugins\org.eclipse.jdt.core
+1366331400.index
+2035362838.index
+1633162165.index
+2327504119.index
+2703476988.index
